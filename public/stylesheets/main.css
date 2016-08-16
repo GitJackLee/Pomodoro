@@ -1,0 +1,16 @@
+div#container {
+  margin: 10% 40%;
+}
+
+#taskName {
+  text-align: center;
+}
+
+#timer {
+  text-align: center;
+}
+
+#buttons {
+  width: 100%;
+  text-align: center;
+}
