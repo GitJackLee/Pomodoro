@@ -1,5 +1,6 @@
 div#container {
-  margin: 10% 40%;
+  margin: 10% 35%;
+  word-wrap: break-word;
 }
 
 #taskName {
@@ -8,6 +9,27 @@ div#container {
 
 #timer {
   text-align: center;
+}
+
+div.ui.input#pomodoroInput {
+  width: 100%;
+}
+
+div.ui.circular.segment {
+  font-size: 30px;
+  display: inline-block;
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+h1#taskName {
+  font-size: 35px;
+  margin: 10px;
+}
+
+h1#timer {
+  font-size: 60px;
 }
 
 #buttons {
