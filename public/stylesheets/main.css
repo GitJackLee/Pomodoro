@@ -1,5 +1,11 @@
+@media (min-width: 801px){
+  div#container {
+    margin: 10% 33%;
+    word-wrap: break-word;
+  }
+}
+
 div#container {
-  margin: 10% 35%;
   word-wrap: break-word;
 }
 
@@ -16,7 +22,7 @@ div.ui.input#pomodoroInput {
 }
 
 div.ui.circular.segment {
-  font-size: 30px;
+  font-size: 2em;
   display: inline-block;
   width: 100%;
   margin-top: 0;
@@ -24,12 +30,12 @@ div.ui.circular.segment {
 }
 
 h1#taskName {
-  font-size: 35px;
+  font-size: 3em;
   margin: 10px;
 }
 
 h1#timer {
-  font-size: 60px;
+  font-size: 1em;
 }
 
 #buttons {
