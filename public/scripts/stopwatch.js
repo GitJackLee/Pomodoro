@@ -62,7 +62,7 @@ function breakUpdate(){
     breakTimer = false;
     clearInterval(interval);
     currentTime = 1500000;
-    taskName.textContent = "Pomodoro Clock";
+    taskName.textContent = pomodoroTask.value;
   }
   if(isOn){
     currentTime -= delta();
@@ -99,7 +99,7 @@ function stopClock(){
 function resetClock(){
   if(!isOn){
     currentTime = 1500000;
-    taskName.textContent = "Pomodoro Clock";
+    taskName.textContent = pomodoroTask.value;
     pomodoroUpdate();
   }
 }
